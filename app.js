@@ -1,5 +1,5 @@
 const express = require('express');
-const { json } = require('express/lib/response');
+const { JSON} = require('express/lib/response');
 
 const app = express();
 const fs = require('fs')
